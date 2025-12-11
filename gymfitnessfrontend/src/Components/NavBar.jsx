@@ -7,7 +7,7 @@ function NavBar() {
     <div className='mainDiv'>
 
       <div className="LeftSide">
-        <img src="" alt="NavBar Logo" className='logo' />
+        {/* <img src="" alt="Logo" className='logo' /> */}
       </div>
 
       <div className="RightSide">

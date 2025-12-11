@@ -2,7 +2,7 @@
 .mainDiv {
   width: 100vw;
   height: 70px;
-  background-color: #0a4faf;
+  background-color: #172e4e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,7 +12,7 @@
 
 /* LOGO */
 .logo {
-  height: 45px;
+  height: 50px;
   width: auto;
 }
 
@@ -36,7 +36,7 @@
 
 /* HOVER EFFECT */
 .RightSide ul li a:hover {
-  color: #ffd700;
+  color: #008eec;
   transform: scale(1.05);
 }
 

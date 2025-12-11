@@ -1,0 +1,22 @@
+.MonthlyAttendenceCard
+{
+    width: 0270px;
+    height: 150px;
+    /* border: 3px solid rgb(0, 68, 255); */
+    background-color: rgba(46, 85, 119, 0.863);
+}
+
+.MonthlyAttendenceCard h1
+{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.MonthlyAttendenceCard h2
+{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+}

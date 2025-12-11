@@ -46,11 +46,6 @@ function Signup() {
                         type="password"
                         placeholder='Enter Password'
                     />
-
-                    <input 
-                        type="password"
-                        placeholder='Re Enter Password'
-                    />
                 </div>
 
                 <button>Login</button>

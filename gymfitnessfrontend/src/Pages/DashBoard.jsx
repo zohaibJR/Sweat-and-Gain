@@ -1,12 +1,12 @@
 import React from "react";
-import NavBar from "../Components/NavBar";
 import SummaryCards from "../Components/SummaryCards/SummaryCards";
+import WeightProgress from "../Components/WeightProgress/WeightProgress";
 
 function DashBoard() {
   return (
     <div>
-      <NavBar />
       <SummaryCards />
+      <WeightProgress />
     </div>
   );
 }

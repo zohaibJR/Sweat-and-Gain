@@ -1,0 +1,25 @@
+// ✔ FIX 1: dotenv must load BEFORE using process.env
+import dotenv from "dotenv";
+dotenv.config();
+
+import express from "express";
+import connectDB from "./config/db.js";
+
+const app = express();
+
+// ✔ FIX 2: Debug line (optional)
+console.log("Loaded MONGO_URI:", process.env.MONGO_URI);
+
+// CONNECT MONGO
+connectDB();
+
+// ROUTE
+app.get("/", (req, res) => {
+    res.send("Backend running...");
+});
+
+// START SERVER
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});

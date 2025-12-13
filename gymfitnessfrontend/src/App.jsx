@@ -9,7 +9,7 @@ function AppContent() {
   const location = useLocation();
 
   // 🚫 Add ONLY the routes where you want to HIDE the Navbar
-  const hiddenPaths = ["/", "/Signup"];  
+  const hiddenPaths = ["/", "/signup"];  
   // Example: hide on login + signup
 
   // Navbar will show on ALL routes except the ones in hiddenPaths

@@ -1,11 +1,28 @@
-.AttendenceCard
-{
-    width: 0270px;
+.AttendenceCard {
+    width: 270px;               /* fixed typo */
     height: 150px;
-    /* border: 3px solid rgb(0, 68, 255); */
-    background-color: rgba(46, 85, 119, 0.863);
-    border-radius: 5px;
+    padding: 15px;
+
+    background: rgba(23, 46, 78, 0.65); /* transparent dark blue */
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    border-radius: 14px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.35);
+
+    transition: all 0.3s ease;
 }
+
+.AttendenceCard:hover {
+    transform: translateY(-6px);
+    background: rgba(23, 46, 78, 0.8);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
 
 .AttendenceCard h1
 {
@@ -19,5 +36,5 @@
     font-size: 18px;
     text-align: center;
     margin-top: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(18, 156, 0);
 }
